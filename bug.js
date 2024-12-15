@@ -1,0 +1,1 @@
+This error occurs when using the Expo `Camera` API with a custom `onBarCodeScanned` function.  The issue is that the `onBarCodeScanned` function doesn't always receive the expected barcode data.  Specifically, it might sometimes receive `undefined` or an empty object instead of the barcode data object.
